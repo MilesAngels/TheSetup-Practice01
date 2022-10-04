@@ -101,6 +101,14 @@
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+	float: right;
+}
+
+.menu-toggle {
+	background-image: linear-gradient(to right top, #3f8c4b, #59a85d, #73c46f, #8fe181, #acff94);
+	border: none;
+	border-radius: 30px;
+	margin: 16px 0 0 0;
 }
 
 @media screen and (min-width: 37.5em) {
