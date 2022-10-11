@@ -12,19 +12,22 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'thesetup-practice01' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'thesetup-practice01' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'thesetup-practice01' ), 'thesetup-practice01', '<a href="http://underscores.me/">Miles Marie Angels</a>' );
-				?>
-		</div><!-- .site-info -->
+		<div class="two-column">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<ul>
+				<li>Email: someweirdperson@something.com</li>
+				<li>Website: someweirdperson.com</li>
+				<li>
+					<input type="email" name="email" id="email">
+					<input type="button" value="Submit">
+				</li>
+			</ul>
+		</div>
+		<p class="copyright">&copy; Miles Angels 2022</p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

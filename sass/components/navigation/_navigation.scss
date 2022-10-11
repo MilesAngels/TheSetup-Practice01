@@ -4,7 +4,7 @@
 	background-color: transparent;
 	height: 64px;
 	position: sticky;
-	background-color: #00001a;
+	background-color: #404040;
 
 	.site-branding{
 		width: 64px;
@@ -13,6 +13,9 @@
 	}
 }
 
+.entry-title {
+	display: none;
+}
 
 .main-navigation {
 	display: block;

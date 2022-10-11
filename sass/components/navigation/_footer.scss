@@ -1,0 +1,42 @@
+footer {
+    background-color: #404040;
+}
+
+.two-column {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    line-height: 2.5rem;
+    align-items: center;
+    text-align: center;
+    color: white;
+    ul {
+        list-style-type: none;
+        margin: 20px 0;
+        padding: 0;
+
+        li a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+@media screen and (min-width: 37.5em) {
+    .two-column {
+        flex-direction: row;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            
+        }
+    }
+}
